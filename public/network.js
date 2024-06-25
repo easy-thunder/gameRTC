@@ -54,7 +54,7 @@ class Network {
                 break;
         case 'stickPosition':
             const stickData = data.data;
-            stickData.currentAngle = stickData.angle; // Add the currentAngle property
+            stickData.currentAngle = stickData.angle; 
             this.otherSticks.push(stickData);
             break;
             case 'removeBullet':
